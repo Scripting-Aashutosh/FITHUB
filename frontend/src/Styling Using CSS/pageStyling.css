@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-design {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e2e2;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Centers vertically and takes the full viewport height */
+}
+
+.square-container {
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height to match the width for a square */
+  border-radius: 10px; /* Adjust the radius for rounded corners */
+  overflow: hidden; /* Ensure the image stays within the container */
+}
+
+.square-container img {
+  width: 100%; /* Make the image take the full width of the container */
+  height: 100%; /* Make the image take the full height of the container */
+  object-fit: cover; /* Crop or scale the image to cover the container */
+} /* Your CSS file (e.g., styles.css) */
+
+/* Style the text inputs */
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 5px; /* Optional: Add a slight border radius */
+}
+
+.button-color {
+  align-self: center;
+  width: 180px; /* Set the button width to 100% to match the input fields */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc; /* Adjust the button border color */
+  border-radius: 5px;
+  background-color: #f54242; /* Adjust the button background color */
+  color: white; /* Adjust the button text color */
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+.button-align {
+  align-self: center;
+  margin-left: 25px;
+}
